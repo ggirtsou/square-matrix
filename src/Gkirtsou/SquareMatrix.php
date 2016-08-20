@@ -3,12 +3,13 @@
 namespace Gkirtsou;
 
 use Gkirtsou\Interfaces\DataProviderInterface;
+use src\Gkirtsou\Interfaces\SquareMatrixInterface;
 
 /**
  * Class SquareMatrix
  * @package Gkirtsou
  */
-class SquareMatrix
+class SquareMatrix implements SquareMatrixInterface
 {
     /** @var int */
     private $size = 0;

@@ -74,6 +74,18 @@ $squareMatrix->getNumbersByColumn(0);
 
 // get numbers from first row (don't forget PHP starts counting from zero!)
 $squareMatrix->getNumbersByRow(0);
+
+// diagonal difference
+$diagonalDifference = new \src\Gkirtsou\Diagonal\DiagonalDifference($squareMatrix);
+
+// find the diagonal difference
+$diagonalDifference->findDiagonalDifference(); // returns '15'
+
+// find primary diagonal (left to right): returns [11, 5, -12]
+$diagonalDifference->findDiagonal(\src\Gkirtsou\Diagonal\DiagonalDifference::PRIMARY_TYPE);
+
+// find secondary diagonal (right to left): returns [4, 5, 10]
+$diagonalDifference->findDiagonal(\src\Gkirtsou\Diagonal\DiagonalDifference::SECONDARY_TYPE);
 ```
 
 # Contributions

@@ -43,7 +43,7 @@ class SquareMatrixTest extends \PHPUnit_Framework_TestCase
      */
     public function setUp()
     {
-        $class = new StringDataProvider(file_get_contents(__DIR__.'/../fixtures/input.txt'));;
+        $class = new StringDataProvider(file_get_contents(__DIR__.'/../fixtures/input.txt'));
         $class->calculateRowsAndColumns();
         $this->data = $class;
     }
