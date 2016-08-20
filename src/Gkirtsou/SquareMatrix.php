@@ -3,7 +3,7 @@
 namespace Gkirtsou;
 
 use Gkirtsou\Interfaces\DataProviderInterface;
-use src\Gkirtsou\Interfaces\SquareMatrixInterface;
+use Gkirtsou\Interfaces\SquareMatrixInterface;
 
 /**
  * Class SquareMatrix

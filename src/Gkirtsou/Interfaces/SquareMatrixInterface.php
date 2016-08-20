@@ -1,10 +1,10 @@
 <?php
 
-namespace src\Gkirtsou\Interfaces;
+namespace Gkirtsou\Interfaces;
 
 /**
  * Interface SquareMatrixInterface
- * @package src\Gkirtsou\Interfaces
+ * @package Gkirtsou\Interfaces
  */
 interface SquareMatrixInterface
 {

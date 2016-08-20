@@ -4,7 +4,7 @@ namespace tests\Gkirtsou\Diagonal;
 
 use Gkirtsou\DataProvider\StringDataProvider;
 use Gkirtsou\SquareMatrix;
-use src\Gkirtsou\Diagonal\DiagonalDifference;
+use Gkirtsou\Diagonal\DiagonalDifference;
 
 /**
  * Class DiagonalDifferenceTest

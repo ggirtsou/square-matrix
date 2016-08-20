@@ -1,12 +1,12 @@
 <?php
 
-namespace src\Gkirtsou\Diagonal;
+namespace Gkirtsou\Diagonal;
 
-use src\Gkirtsou\Interfaces\SquareMatrixInterface;
+use Gkirtsou\Interfaces\SquareMatrixInterface;
 
 /**
  * Class DiagonalDifference
- * @package src\Gkirtsou\Diagonal
+ * @package Gkirtsou\Diagonal
  */
 class DiagonalDifference
 {
