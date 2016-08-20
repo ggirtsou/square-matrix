@@ -2,7 +2,7 @@ Square Matrix
 ====
 
 This is a PHP library that intends to provide a fluent API to 
-make handling [Square Matrix](https://en.wikipedia.org/wiki/Square_matrix) easier.
+make working with [Square Matrix](https://en.wikipedia.org/wiki/Square_matrix) easier.
 
 # Requirements
 * PHP 5.5.9 or greater
