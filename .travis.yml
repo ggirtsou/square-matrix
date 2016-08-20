@@ -17,4 +17,4 @@ install:
 
 before_script: echo 'date.timezone = "Europe/London"' >> ~/.phpenv/versions/$(phpenv version-name)/etc/conf.d/travis.ini
 
-script: vendor/bin/phpunit --c phpunit.xml.dist tests
+script: vendor/bin/phpunit -c phpunit.xml.dist tests
