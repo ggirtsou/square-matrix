@@ -3,9 +3,9 @@
 namespace Gkirtsou\Interfaces;
 
 /**
- * Interface DataProvider
+ * Interface DataProviderInterface
  */
-interface DataProvider
+interface DataProviderInterface
 {
     /** @return int */
     public function getSize();

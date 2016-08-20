@@ -57,6 +57,7 @@ class SquareMatrixTest extends \PHPUnit_Framework_TestCase
     {
         $class = new SquareMatrix($this->data);
         $this->assertEquals($expected, $class->getNumbersByColumn($columnNumber));
+        $this->assertEquals(3, $class->getSize());
     }
 
     /**

@@ -2,7 +2,7 @@
 
 namespace Gkirtsou\DataProvider;
 
-use Gkirtsou\Interfaces\DataProvider;
+use Gkirtsou\Interfaces\DataProviderInterface;
 
 /**
  * Class StringDataProvider expects to receive a string representing a square matrix.
@@ -18,7 +18,7 @@ use Gkirtsou\Interfaces\DataProvider;
  * 4 5 6
  * 7 8 9
  */
-class StringDataProvider implements DataProvider
+class StringDataProvider implements DataProviderInterface
 {
     /** @var string */
     private $data;

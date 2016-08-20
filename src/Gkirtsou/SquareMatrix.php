@@ -2,7 +2,7 @@
 
 namespace Gkirtsou;
 
-use Gkirtsou\Interfaces\DataProvider;
+use Gkirtsou\Interfaces\DataProviderInterface;
 
 /**
  * Class SquareMatrix
@@ -21,9 +21,9 @@ class SquareMatrix
 
     /**
      * SquareMatrix constructor.
-     * @param DataProvider $data
+     * @param DataProviderInterface $data
      */
-    public function __construct(DataProvider $data)
+    public function __construct(DataProviderInterface $data)
     {
         $this->size = $data->getSize();
         $this->rows = $data->getRows();
@@ -50,5 +50,15 @@ class SquareMatrix
     public function getNumbersByRow($number)
     {
         return $this->rows[$number];
+    }
+
+    /**
+     * Returns square size
+     *
+     * @return int
+     */
+    public function getSize()
+    {
+        return (int) $this->size;
     }
 }
