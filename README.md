@@ -11,28 +11,12 @@ make working with [Square Matrix](https://en.wikipedia.org/wiki/Square_matrix) e
 * PHP 5.6 or greater
 
 # Installation
-* Clone the repository
-```bash
-$ git clone git@github.com:trivialmatters/square-matrix.git
-```
-* Run [Composer](https://getcomposer.org/download/)
-```bash
-$ composer install --prefer-dist -o -vvv
-```
-
-# Tests
-You can run tests using [PHPUnit](https://phpunit.de/):
-```bash
-$ vendor/bin/phpunit -c phpunit.xml.dist tests
-```
-
-# Usage
 * Add library in your composer.json:
 ```bash
 $ composer require trivialmatters/square-matrix
 ```
 
-Use it:
+# Usage
 ```php
 <?php
 
@@ -91,3 +75,19 @@ $diagonalDifference->findDiagonal(\Gkirtsou\Diagonal\DiagonalDifference::SECONDA
 # Contributions
 Want to contribute? Awesome! Please create an Issue in [Issue Tracker](https://github.com/trivialmatters/square-matrix/issues/new) to discuss about it,
 and create a Pull Request with your changes. Don't forget to write tests! :)
+
+## Installation
+* Clone the repository
+```bash
+$ git clone git@github.com:trivialmatters/square-matrix.git
+```
+* Run [Composer](https://getcomposer.org/download/)
+```bash
+$ composer install --prefer-dist -o -vvv
+```
+
+## Tests
+You can run tests using [PHPUnit](https://phpunit.de/):
+```bash
+$ vendor/bin/phpunit -c phpunit.xml.dist tests
+```
