@@ -33,7 +33,7 @@ Use it:
 ```php
 <?php
 
-require once __DIR__.'/vendor/autoload.php';
+require_once __DIR__.'/vendor/autoload.php';
 
 $squareMatrix = new Gkirtsou\SquareMatrix();
 // ...
