@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/trivialmatters/square-matrix.svg?branch=master)](https://travis-ci.org/trivialmatters/square-matrix)
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/38481cd8-5e7a-4dc8-aaa9-8bd6de36fc04/big.png)](https://insight.sensiolabs.com/projects/38481cd8-5e7a-4dc8-aaa9-8bd6de36fc04)
+
 Square Matrix
 ====
 
