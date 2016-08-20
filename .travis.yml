@@ -13,8 +13,7 @@ php:
   - nightly
 
 before_install:
-  - mkdir -p ~/.phpenv/versions/$(phpenv version-name)/etc
-
+  - mkdir -p ~/.phpenv/versions/$(phpenv version-name)/etc/conf.d/
 
 install:
    - composer install --prefer-dist -o -vvv
