@@ -78,7 +78,7 @@ class StringDataProvider implements DataProviderInterface
      * Returns size of our square matrix
      * @return int
      */
-    public function getSize()
+    public function getSize() : int
     {
         if (null === $this->size) {
             throw new \LogicException('Did you call calculateRowsAndColumns first?');
@@ -91,7 +91,7 @@ class StringDataProvider implements DataProviderInterface
      * Returns number array or rows
      * @return int[]
      */
-    public function getRows()
+    public function getRows() : array
     {
         if (0 === count($this->rows)) {
             throw new \LogicException('Did you call calculateRowsAndColumns first?');
@@ -104,7 +104,7 @@ class StringDataProvider implements DataProviderInterface
      * Returns number array of columns
      * @return int[]
      */
-    public function getColumns()
+    public function getColumns() : array
     {
         if (0 === count($this->columns)) {
             throw new \LogicException('Did you call calculateRowsAndColumns first?');

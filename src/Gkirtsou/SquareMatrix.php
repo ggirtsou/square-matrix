@@ -37,7 +37,7 @@ class SquareMatrix implements SquareMatrixInterface
      * @param int $number
      * @return int[]
      */
-    public function getNumbersByColumn($number)
+    public function getNumbersByColumn($number) : array
     {
         return $this->columns[$number];
     }
@@ -48,7 +48,7 @@ class SquareMatrix implements SquareMatrixInterface
      * @param int $number
      * @return int[]
      */
-    public function getNumbersByRow($number)
+    public function getNumbersByRow($number) : array
     {
         return $this->rows[$number];
     }
@@ -58,7 +58,7 @@ class SquareMatrix implements SquareMatrixInterface
      *
      * @return int
      */
-    public function getSize()
+    public function getSize() : int
     {
         return (int) $this->size;
     }

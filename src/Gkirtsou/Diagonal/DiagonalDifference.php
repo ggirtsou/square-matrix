@@ -31,7 +31,7 @@ class DiagonalDifference
      *
      * @return int
      */
-    public function findDiagonalDifference()
+    public function findDiagonalDifference() : int
     {
         $primaryDiagonal = array_sum($this->findDiagonal(self::PRIMARY_TYPE));
         $secondaryDiagonal = array_sum($this->findDiagonal(self::SECONDARY_TYPE));
@@ -48,7 +48,7 @@ class DiagonalDifference
      * @param string $type can be 'primary' or 'secondary' (use class constants)
      * @return int[]
      */
-    public function findDiagonal($type = self::PRIMARY_TYPE)
+    public function findDiagonal(string $type = self::PRIMARY_TYPE) : array
     {
         $numbers = [];
         $size = $this->squareMatrix->getSize();
