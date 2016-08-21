@@ -11,12 +11,19 @@ php:
   - hhvm
   - nightly
 
+matrix:
+    allow_failures:
+        - php: hhvm
+
+
 before_install:
   - mkdir -p ~/.phpenv/versions/$(phpenv version-name)/etc/conf.d/
 
 install:
    - composer install --prefer-dist -o -vvv
 
-before_script: echo 'date.timezone = "Europe/London"' >> ~/.phpenv/versions/$(phpenv version-name)/etc/conf.d/travis.ini
+before_script:
+  - composer self-update
+  - echo 'date.timezone = "Europe/London"' >> ~/.phpenv/versions/$(phpenv version-name)/etc/conf.d/travis.ini
 
 script: vendor/bin/phpunit -c phpunit.xml.dist tests
